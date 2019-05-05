@@ -34,7 +34,9 @@ public class BudgetCalc
         }
 
         input.close();
-        return "You will spend $" + thisMonthsTotal + " this month + have " + (total - thisMonthsTotal) + " left :)";
+
+        System.out.println("\n**************************************\n           BUDGET CALCULATOR\n**************************************\n");
+        return "You will spend $" + thisMonthsTotal + " this month + have " + (total - thisMonthsTotal) + " left :)\n***************************************************";
     }
 
     public static void main(String[] args) throws IOException
